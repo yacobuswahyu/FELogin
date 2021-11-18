@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>login</title>
+  </head>
+
+  <!-- Bagian Navbar -->
+
+  <nav class="navbar navcnt navbar-expand-lg navbar-light bg-white fixed-top py-1">
+    <div class="container">
+      <a class="navbar-brand me-5" href="https://www.kotakode.com/"><img src="img/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-secondary">
+          <li class="nav-item">
+            <button class="tblnav btn-outline rounded-3"><a class="nav-link active fw-bold text-secondary" aria-current="page" href="#">Tentang</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="tblnav rounded-3"><a class="nav-link active fw-bold text-secondary" href="#" onclick="on()" id="prdk">Produk</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="tblnav rounded-3"><a class="nav-link active fw-bold text-secondary" href="#">FAQ</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="tblnav rounded-3"><a class="nav-link active fw-bold text-secondary" href="#">Events</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="tblnav rounded-3"><a class="nav-link active fw-bold text-secondary" href="#">Partnership</a></button>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn tmbl btn-outline-success me-3" type="submit">Masuk</button>
+          <button class="btn tmbl2 text-white rounded-3" type="submit">Daftar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="menu-bar d-inline justify-content-start bg-white rounded-3 fixed" id="menuBar">
+    <button class="tblmenu btn">
+      <a href="#" class="text-decoration-none text-start text-dark"
+        ><h6>Forum Q&A</h6>
+        <p>Pertanyaan & Jawaban</p></a
+      >
+    </button>
+    <button class="tblmenu btn mt-0">
+      <a href="#" class="text-decoration-none text-start text-dark"
+        ><h6>Blog</h6>
+        <p>Diskusi & Informasi</p></a
+      >
+    </button>
+    <button class="tblmenu btn">
+      <a href="#" class="text-decoration-none text-start bg-success text-dark"
+        ><h6>Jobs</h6>
+        <p>Cari kerja</p></a
+      >
+    </button>
+  </div>
+
+  <!-- Akhir Navbar -->
+
+  <!-- Form Login -->
+  <body>
+    <div class="container dftr d-flex justify-content-between align-items-center py-5">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <h2>
+            Gabung Komunitas<br />
+            Programmer Terbesar di <br />Indonesia Sekarang!
+          </h2>
+          <ul class="text-success">
+            <li>
+              <h6 class="text-secondary">Bangun reputasi online sebagai programmer</h6>
+            </li>
+            <li>
+              <h6 class="text-secondary">Perbesar jaringan dengan ribuan programmer Indonesia lainnya</h6>
+            </li>
+            <li>
+              <h6 class="text-secondary">Perluas wawasan seputar dunia teknologi</h6>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 d-block">
+          <label for="" class="fw-bold text-secondary" style="width: 250px"> Username </label>
+          <input type="text" class="rounded-3 mb-2" style="width: 250px" />
+          <label for="" class="fw-bold text-secondary" style="width: 250px"> Email </label>
+          <input type="text" class="rounded-3 mb-2" style="width: 250px" />
+          <label for="" class="fw-bold text-secondary" style="width: 250px"> Password </label>
+          <input type="password" class="rounded-3" style="width: 250px" />
+          <button class="btn bg-dark text-white mt-3 mb-2" type="button" style="width: 250px">DAFTAR</button>
+          <p class="" style="width: 250px">Dengan klik daftar, berarti kamu telah menyetujui <a href="" class="text-decoration-none text-success">Syarat, Ketentuan, serta Kebijakan Privasi KOTAKODE</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Form daftar -->
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <ul>
+              <li class="mb-3"><a class="text-white fw-bold text-decoration-none">BAGIAN DARI:</a></li>
+              <li>
+                <a href="https://www.ranosys.com/" class="me-4"><img src="img/almt.png" alt="alamat" class="rounded-3" /></a>
+                <a href="https://startup.google.com/"><img src="img/ggl.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <ul>
+              <li class="mb-3"><a class="text-white text-decoration-none fw-bold">PRODUK</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Pertanyaan</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Blog</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Pengguna</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Events</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Partnership</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <ul>
+              <li class="mb-3"><a class="text-white text-decoration-none fw-bold">PERUSAHAAN</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">About</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">FAQ</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Rules</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Legal</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <ul>
+              <li class="mb-3"><a class="text-white text-decoration-none fw-bold">HUBUNGI KAMI</a></li>
+              <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">petertanugraha@kotakode.com</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center mt-3">
+            <a href="" class="text-decoration-none text-white"
+              >PT. Kota Digital Nusantara<br />Copyright 2020 Kotakode. All rights reserved<br />
+              Made with ❤️ in 🇮🇩</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+<script>
+  function on() {
+    var menuBar = document.getElementById("menuBar");
+
+    menuBar.classList.toggle("menuBarStyle");
+  }
+</script>

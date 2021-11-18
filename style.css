@@ -1,0 +1,63 @@
+.cntlgn {
+  width: 300px;
+  height: 500px;
+  margin: auto;
+}
+.tblnav {
+  border: none;
+  background-color: white;
+}
+.tblnav:hover {
+  border: 1px rgb(55, 0, 255) !important;
+  background-color: none;
+}
+.navcnt {
+  z-index: 1;
+  box-shadow: 0px 3px 1px 0px rgb(255, 136, 0);
+}
+.tmbl {
+  content: ("");
+}
+.tmbl2 {
+  background-color: rgb(41, 168, 90);
+}
+.tmbl:hover {
+  border-color: rgb(93, 189, 130);
+  background-color: rgb(93, 189, 130);
+}
+.tmbl2:hover {
+  border-color: rgb(93, 189, 130);
+  background-color: rgb(93, 189, 130);
+}
+.ggl {
+  box-shadow: 0px 5px 10px 0px rgb(112, 111, 111);
+}
+.menu-bar {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  box-shadow: 0px -1px 9px 0px rgb(112, 111, 111);
+  visibility: hidden;
+  right: 780px;
+  top: 55px;
+  cursor: pointer;
+  z-index: 9;
+}
+.menuBarStyle {
+  visibility: visible;
+}
+.tblmenu {
+  background-color: white;
+  margin: 5px;
+  width: 190px;
+  height: 60px;
+}
+.tblmenu:hover {
+  width: 190px;
+  height: 60px;
+  background-color: rgb(161, 209, 169);
+}
+.dftr {
+  height: 500px;
+}
