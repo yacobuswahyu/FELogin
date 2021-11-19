@@ -63,9 +63,17 @@
 }
 .cnt-footer {
   text-align: center;
+  margin-top: 100px;
+}
+.frm-signup {
+  padding-top: 200px;
 }
 @media (min-width: 576px) {
   .cnt-footer {
     text-align: start;
+    margin-top: 0px;
+  }
+  .frm-signup {
+    padding-top: 0px;
   }
 }
