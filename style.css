@@ -61,3 +61,11 @@
 .dftr {
   height: 500px;
 }
+.cnt-footer {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .cnt-footer {
+    text-align: start;
+  }
+}
